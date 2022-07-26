@@ -7,7 +7,7 @@ import { BsLinkedin, BsGithub, BsTwitter } from 'react-icons/bs';
 
 const Header = () => {
   return (
-    <HeaderContainer>
+    <HeaderContainer id="header">
       <Container className="container">
         <h5>Hello I'm</h5>
         <h1>Saurav Kumar Verma</h1>
