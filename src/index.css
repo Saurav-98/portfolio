@@ -12,7 +12,7 @@
 
 :root {
   --color-bg: #1f1f38;
-  --color-bg-varian: #2c2c6c;
+  --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
   --color-primary-variant: #2b909d;
   --color-white: #f9f9f9;
@@ -93,7 +93,8 @@ a:focus {
   border-radius: 0.4rem;
   cursor: pointer;
   transition: var(--transition);
-  border: 1px solid --color-primary;
+  border: 1px solid var(--color-primary);
+  /* background-color: var(--color-bg-variant); */
 }
 
 .btn:hover,
